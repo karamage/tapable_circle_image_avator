@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - tapable_circle_image_avator (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - tapable_circle_image_avator (from `.symlinks/plugins/tapable_circle_image_avator/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  tapable_circle_image_avator:
+    :path: ".symlinks/plugins/tapable_circle_image_avator/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  tapable_circle_image_avator: adfda82c1fe43da14a572a37576925e8cc6f1ead
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.8.4
