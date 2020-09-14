@@ -1,8 +1,8 @@
 name: tapable_circle_image_avator
 description: A new flutter plugin project.
 version: 0.0.1
-author: karamage
-homepage:
+author: karamage(Masaaki Kakimoto)
+homepage: https://github.com/karamage/tapable_circle_image_avator
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
