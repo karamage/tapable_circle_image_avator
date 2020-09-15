@@ -22,8 +22,10 @@ class TapableCircleImageAvator extends StatelessWidget {
   final String imageUrl;
   final double size; //Circle diameter
   final void Function(String) onTap;
+  final Color backgroundColor;
 
-  TapableCircleImageAvator({@required this.id, @required this.name, this.imageUrl, this.size = 48.0, this.onTap});
+  TapableCircleImageAvator({@required this.id, @required this.name, this.imageUrl,
+    this.size = 48.0, this.onTap, this.backgroundColor = Colors.cyan});
 
   @override
   Widget build(BuildContext context) {
@@ -33,7 +35,7 @@ class TapableCircleImageAvator extends StatelessWidget {
       }, // handle your image tap here
       child: CircleAvatar(
         radius: size / 2,
-        backgroundColor: Color.fromRGBO(212, 232, 232, 1.0),
+        backgroundColor: backgroundColor,
         foregroundColor: Colors.white,
         child: imageUrl != null ?
           ClipOval(
